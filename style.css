@@ -1,0 +1,130 @@
+/* General styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+.price {
+  float: right;
+  font-weight: bold;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e6e6e6;
+}
+
+/* Main styles */
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-transform: capitalize;
+  color: #333;
+}
+
+p {
+  margin: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+/* Styles for each section */
+#appetizers {
+  background-color: #f7dc6f;
+  padding: 2em;
+}
+
+#appetizers h3 {
+  color: #333;
+}
+
+#entrees {
+  background-color: #f0b27a;
+  padding: 2em;
+}
+
+#entrees h3 {
+  color: #333;
+}
+
+#desserts {
+  background-color: #d7bde2;
+  padding: 2em;
+}
+
+#desserts h3 {
+  color: #333;
+}
+
+#drinks {
+  background-color: #a9cce3;
+  padding: 2em;
+}
+
+#drinks h3 {
+  color: #333;
+}
