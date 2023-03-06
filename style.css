@@ -128,3 +128,54 @@ p {
 #drinks h3 {
   color: #333;
 }
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  /* Navigation styles */
+  nav {
+    float: none;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+  }
+
+  /* Section styles */
+  section {
+    padding: 1em;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .price {
+    font-size: 1.2em;
+  }
+
+  /* Styles for each section */
+  #appetizers {
+    background-color: #f7dc6f;
+  }
+
+  #entrees {
+    background-color: #f0b27a;
+  }
+
+  #desserts {
+    background-color: #d7bde2;
+  }
+
+  #drinks {
+    background-color: #a9cce3;
+  }
+}
