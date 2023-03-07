@@ -220,6 +220,16 @@ p {
   #beverage {
     background-color: #ccf1a2;
   }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list li {
+    width: 33.33%;
+    box-sizing: border-box;
+    margin: auto;
+  }
 }
 .footer {
   text-align: center;
