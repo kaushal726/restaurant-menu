@@ -202,11 +202,23 @@ p {
   }
 
   #pasta {
-    background-color: #d7bde2;
+    background-color: #aad9f8;
   }
 
-  #drinks {
-    background-color: #a9cce3;
+  #sandwich {
+    background-color: #b4f5df;
+  }
+
+  #bites {
+    background-color: #f7adc3;
+  }
+
+  #maggie {
+    background-color: #c9b5fa;
+  }
+
+  #beverage {
+    background-color: #ccf1a2;
   }
 }
 .footer {
