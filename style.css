@@ -39,7 +39,7 @@ li {
 }
 
 header {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 1em;
 }
@@ -229,6 +229,7 @@ p {
     width: 33.33%;
     box-sizing: border-box;
     margin: auto;
+    padding: 0.2em 0;
   }
 }
 .footer {
@@ -237,4 +238,5 @@ p {
 }
 .Name {
   font-family: "Handwriting", cursive;
+  font-size: 2.5em;
 }
