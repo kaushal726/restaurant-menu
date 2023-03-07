@@ -167,6 +167,14 @@ p {
 #beverage h3 {
   color: #333;
 }
+#combo {
+  background-color: #988ef5;
+  padding: 2em;
+}
+
+#combo h3 {
+  color: #333;
+}
 
 @media only screen and (max-width: 768px) {
   nav {
