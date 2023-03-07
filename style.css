@@ -101,7 +101,7 @@ p {
 }
 
 .price {
-  font-weight: bold;
+  font-weight: 800;
   color: #333;
   font-size: 1.5em;
   /* margin-top: 0.5em; */
@@ -264,7 +264,24 @@ p {
   right: 20px;
   display: none;
 }
-button {
+
+#myBtn {
   all: unset;
   font-size: 2.5rem;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
