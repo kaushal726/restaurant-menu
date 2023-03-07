@@ -238,8 +238,8 @@ p {
   }
   img {
     position: absolute;
-    height: 10%;
-    width: 15%;
+    height: 6rem;
+    width: 7rem;
   }
 }
 .footer {
