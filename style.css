@@ -1,14 +1,24 @@
-/* General styles */
+@font-face {
+  font-family: "Handwriting";
+  src: url("path/to/handwriting-font.ttf") format("truetype");
+}
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2,
+h1 {
+  font-weight: normal;
+  text-align: center;
+}
+
 h3 {
   font-weight: normal;
+  text-align: left;
+}
+h2 {
+  margin: 0px;
   text-align: center;
 }
 
@@ -20,6 +30,7 @@ ul {
 
 li {
   margin-bottom: 1em;
+  /* background-color: aliceblue; */
 }
 
 .price {
@@ -27,7 +38,6 @@ li {
   font-weight: bold;
 }
 
-/* Header styles */
 header {
   background-color: #333;
   color: #fff;
@@ -35,7 +45,7 @@ header {
 }
 
 nav {
-  float: right;
+  text-align: center;
 }
 
 nav ul {
@@ -46,6 +56,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 1em;
+  margin-bottom: auto;
 }
 
 nav a {
@@ -55,10 +66,9 @@ nav a {
 }
 
 nav a:hover {
-  color: #e6e6e6;
+  color: #07e912;
 }
 
-/* Main styles */
 main {
   padding: 2em;
 }
@@ -92,46 +102,68 @@ p {
   margin-top: 0.5em;
 }
 
-/* Styles for each section */
-#appetizers {
+#pizza {
   background-color: #f7dc6f;
   padding: 2em;
 }
 
-#appetizers h3 {
+#pizza h3 {
   color: #333;
 }
 
-#entrees {
+#burger {
   background-color: #f0b27a;
   padding: 2em;
 }
 
-#entrees h3 {
+#burger h3 {
   color: #333;
 }
 
-#desserts {
-  background-color: #d7bde2;
+#pasta {
+  background-color: #aad9f8;
   padding: 2em;
 }
 
-#desserts h3 {
+#pasta h3 {
   color: #333;
 }
 
-#drinks {
-  background-color: #a9cce3;
+#sandwich {
+  background-color: #b4f5df;
   padding: 2em;
 }
 
-#drinks h3 {
+#sandwich h3 {
+  color: #333;
+}
+#bites {
+  background-color: #f7adc3;
+  padding: 2em;
+}
+
+#bites h3 {
+  color: #333;
+}
+#maggie {
+  background-color: #c9b5fa;
+  padding: 2em;
+}
+
+#maggie h3 {
   color: #333;
 }
 
-/* Media queries for responsive design */
+#beverage {
+  background-color: #ccf1a2;
+  padding: 2em;
+}
+
+#beverage h3 {
+  color: #333;
+}
+
 @media only screen and (max-width: 768px) {
-  /* Navigation styles */
   nav {
     float: none;
     text-align: center;
@@ -143,7 +175,6 @@ p {
     margin: 0;
   }
 
-  /* Section styles */
   section {
     padding: 1em;
   }
@@ -162,20 +193,26 @@ p {
     font-size: 1.2em;
   }
 
-  /* Styles for each section */
-  #appetizers {
+  #pizza {
     background-color: #f7dc6f;
   }
 
-  #entrees {
+  #burger {
     background-color: #f0b27a;
   }
 
-  #desserts {
+  #pasta {
     background-color: #d7bde2;
   }
 
   #drinks {
     background-color: #a9cce3;
   }
+}
+.footer {
+  text-align: center;
+  font-size: small;
+}
+.Name {
+  font-family: "Handwriting", cursive;
 }
