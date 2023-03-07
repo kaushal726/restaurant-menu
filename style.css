@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
 }
-img {
+.img {
   position: absolute;
   float: left;
   height: 8rem;
@@ -236,7 +236,7 @@ p {
     margin: auto;
     padding: 0.2em 0;
   }
-  img {
+  .img {
     position: absolute;
     height: 6rem;
     width: 7rem;
@@ -249,4 +249,14 @@ p {
 .Name {
   font-family: "Handwriting", cursive;
   font-size: 2.5em;
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+button {
+  all: unset;
+  font-size: 2rem;
 }
