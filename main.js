@@ -10,11 +10,10 @@ function scrollFunction() {
 }
 
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    var time = 500; // Scroll duration in milliseconds
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+    var time = 500; 
     var step = -window.pageYOffset / (time / 15);
     var timer = setInterval(function () {
         window.scrollBy(0, step);

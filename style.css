@@ -175,6 +175,58 @@ p {
 #combo h3 {
   color: #333;
 }
+.footer {
+  text-align: center;
+  font-size: small;
+}
+.Name {
+  font-family: "Handwriting", cursive;
+  font-size: 2.5em;
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+#myBtn {
+  all: unset;
+  font-size: 2.5rem;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.details {
+  text-align: center;
+}
+
+.details a {
+  font-size: 5rem;
+  padding: 5rem;
+  color: black;
+}
+.details h3 {
+  letter-spacing: normal;
+  text-align: center;
+  font-family: "Handwriting", cursive;
+  color: rgb(55, 119, 119);
+  font-size: 5rem;
+}
 
 @media only screen and (max-width: 768px) {
   nav {
@@ -249,39 +301,11 @@ p {
     height: 6rem;
     width: 7rem;
   }
-}
-.footer {
-  text-align: center;
-  font-size: small;
-}
-.Name {
-  font-family: "Handwriting", cursive;
-  font-size: 2.5em;
-}
-#myBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-}
-
-#myBtn {
-  all: unset;
-  font-size: 2.5rem;
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 50%;
-}
-
-#myBtn:hover {
-  background-color: #555;
+  .details a {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+  .details h3 {
+    font-size: 2rem;
+  }
 }
