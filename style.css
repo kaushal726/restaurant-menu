@@ -210,6 +210,9 @@ p {
 #myBtn:hover {
   background-color: #555;
 }
+#combo {
+  margin-bottom: 1em;
+}
 
 .details {
   text-align: center;
@@ -219,6 +222,7 @@ p {
   font-size: 5rem;
   padding: 5rem;
   color: black;
+  margin: 1rem;
 }
 .details h3 {
   letter-spacing: normal;
@@ -226,6 +230,7 @@ p {
   font-family: "Handwriting", cursive;
   color: rgb(55, 119, 119);
   font-size: 5rem;
+  margin: 1rem 0;
 }
 
 @media only screen and (max-width: 768px) {
