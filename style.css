@@ -229,8 +229,9 @@ p {
   text-align: center;
   font-family: "Handwriting", cursive;
   color: rgb(55, 119, 119);
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin: 1rem 0;
+  font-weight: 900;
 }
 
 @media only screen and (max-width: 768px) {
@@ -311,6 +312,6 @@ p {
     padding: 1rem;
   }
   .details h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
