@@ -1,5 +1,6 @@
 let veg = document.querySelectorAll(".veg");
 let nonveg = document.querySelectorAll(".nonveg");
+let burger = document.getElementById("burger")
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
@@ -25,6 +26,7 @@ function hidenonveg() {
     veg.forEach((element) => {
         element.style.display = "block";
     })
+    burger.classList.add("animated-section")
     // document.body.style.background = "green";
 
 }
@@ -36,6 +38,7 @@ function hideveg() {
     nonveg.forEach((element) => {
         element.style.display = "block";
     })
+    burger.classList.remove("animated-section")
     // document.body.style.background = "red";
 }
 
@@ -46,6 +49,8 @@ function appearall() {
     nonveg.forEach((element) => {
         element.style.display = "block";
     })
+
+    burger.classList.add("animated-section")
     // document.body.style.background = "white";
 
 }
@@ -53,7 +58,7 @@ function appearall() {
 const sections = document.querySelectorAll('.animated-section');
 
 window.addEventListener('scroll', () => {
-    const triggerBottom = window.innerHeight * 0.9; // trigger animation when section is 80% visible
+    const triggerBottom = window.innerHeight * 0.9;
     sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
         if (sectionTop < triggerBottom) {
