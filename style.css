@@ -2,6 +2,9 @@
   font-family: "Handwriting";
   src: url("path/to/handwriting-font.ttf") format("truetype");
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -109,6 +112,16 @@ main {
 
 section {
   margin-bottom: 3em;
+  scroll-margin-top: 1.5em;
+}
+.animated-section {
+  opacity: 0; /* start with sections hidden */
+  transform: translateY(50px); /* slide sections up 50px */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* add animation transition */
+}
+.animated-section.appear {
+  opacity: 1; /* show sections when appear class is added */
+  transform: translateY(0); /* slide sections back to their original position */
 }
 
 h2 {

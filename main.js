@@ -51,3 +51,18 @@ function appearall() {
 
 }
 
+const sections = document.querySelectorAll('.animated-section');
+
+window.addEventListener('scroll', () => {
+    const triggerBottom = window.innerHeight * 0.9; // trigger animation when section is 80% visible
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        console.log(sectionTop);
+        console.log({ triggerBottom });
+        if (sectionTop < triggerBottom) {
+            section.classList.add('appear');
+        } else {
+            section.classList.remove('appear');
+        }
+    });
+});
