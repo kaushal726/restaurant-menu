@@ -20,13 +20,92 @@ body {
   color: white;
 }
 .btnall {
-  background-color: lightskyblue;
+  background-color: #4fc6eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.2s ease-in-out;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    #a1eefc 0%,
+    #29a5f8 50%,
+    #26c8fa 50%,
+    #a4eef8 100%
+  );
+}
+.btnall:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    #22d4f3 0%,
+    #9fd3f5 50%,
+    #afe4f5 50%,
+    #1ed6ee 100%
+  );
 }
 .btnveg {
-  background-color: green;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.2s ease-in-out;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    #9dfaa0 0%,
+    #30f337 50%,
+    #1ff335 50%,
+    #a4fdad 100%
+  );
 }
+.btnveg:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    #23f02a 0%,
+    #9aec9c 50%,
+    #9df8a6 50%,
+    #1dfd34 100%
+  );
+}
+
 .btnnonveg {
-  background-color: red;
+  background-color: #fa4545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.2s ease-in-out;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    #eea4a4 0%,
+    #f32929 50%,
+    #df3232 50%,
+    #f5aaaa 100%
+  );
+}
+.btnnonveg:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    #f52c2c 0%,
+    #eb8c8c 50%,
+    #ec8484 50%,
+    #f32121 100%
+  );
 }
 .background-image {
   position: fixed;
@@ -360,5 +439,8 @@ p {
   .background-image {
     background-position: center;
     height: 100vh;
+  }
+  section {
+    scroll-margin-top: 4rem;
   }
 }
