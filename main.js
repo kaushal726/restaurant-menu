@@ -18,7 +18,6 @@ function topFunction() {
 }
 
 
-console.log({ veg, nonveg });
 function hidenonveg() {
     nonveg.forEach((element) => {
         element.style.display = "none";
@@ -57,8 +56,6 @@ window.addEventListener('scroll', () => {
     const triggerBottom = window.innerHeight * 0.9; // trigger animation when section is 80% visible
     sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
-        console.log(sectionTop);
-        console.log({ triggerBottom });
         if (sectionTop < triggerBottom) {
             section.classList.add('appear');
         } else {
