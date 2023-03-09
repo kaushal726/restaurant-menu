@@ -32,21 +32,23 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #a1eefc 0%,
+    #0dcef0 0%,
     #29a5f8 50%,
     #26c8fa 50%,
-    #a4eef8 100%
+    #077483 100%
   );
+  transition: padding 0.5s;
 }
 .btnall:hover {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #22d4f3 0%,
-    #9fd3f5 50%,
-    #afe4f5 50%,
-    #1ed6ee 100%
+    #0ad2f5 0%,
+    #0788df 50%,
+    #0c6e8f 50%,
+    #2e717a 100%
   );
+  padding: 1.1rem 3rem;
 }
 .btnveg {
   background-color: #4caf50;
@@ -61,21 +63,23 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #9dfaa0 0%,
-    #30f337 50%,
-    #1ff335 50%,
-    #a4fdad 100%
+    #05b40b 0%,
+    #029107 50%,
+    #04af15 50%,
+    #03b415 100%
   );
+  transition: padding 0.5s;
 }
 .btnveg:hover {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #23f02a 0%,
-    #9aec9c 50%,
-    #9df8a6 50%,
-    #1dfd34 100%
+    #23b923 0%,
+    #0fa012 50%,
+    #058d13 50%,
+    #17a327 100%
   );
+  padding: 1.1rem 3rem;
 }
 
 .btnnonveg {
@@ -91,21 +95,23 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #eea4a4 0%,
-    #f32929 50%,
-    #df3232 50%,
-    #f5aaaa 100%
+    #f32d2d 0%,
+    #ca0a0a 50%,
+    #fc0e0e 50%,
+    #ac0505 100%
   );
+  transition: padding 0.5s;
 }
 .btnnonveg:hover {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #f52c2c 0%,
-    #eb8c8c 50%,
-    #ec8484 50%,
-    #f32121 100%
+    #d32222 0%,
+    #970a0a 50%,
+    #da0d0d 50%,
+    #e60909 100%
   );
+  padding: 1.1rem 3rem;
 }
 .background-image {
   position: fixed;
