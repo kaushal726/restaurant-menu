@@ -13,6 +13,7 @@ body {
 .vegnonveg {
   text-align: center;
   margin-bottom: 2em;
+  min-height: 5rem;
 }
 .btncat {
   padding: 0.3em 1em;
@@ -114,6 +115,8 @@ body {
 }
 .active {
   padding: 1.1rem 3rem;
+  font-size: 1rem;
+  font-weight: 900;
 }
 .background-image {
   position: fixed;
