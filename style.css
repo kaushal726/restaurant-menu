@@ -163,7 +163,7 @@ li {
 
 .price {
   float: right;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 header {
@@ -454,5 +454,17 @@ p {
   }
   section {
     scroll-margin-top: 4rem;
+  }
+  p {
+    font-size: 0.3rem;
+  }
+}
+@media (max-width: 345px) {
+  h3 {
+    font-size: 0.8em;
+  }
+  .details a {
+    font-size: 1.8rem;
+    padding: 0.4rem;
   }
 }
