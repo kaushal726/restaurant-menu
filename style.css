@@ -11,9 +11,11 @@ body {
   padding: 0;
 }
 .vegnonveg {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2em;
-  min-height: 5rem;
+  /* min-height: 5rem; */
 }
 .btncat {
   padding: 0.3em 1em;
@@ -114,8 +116,7 @@ body {
   );
 }
 .active {
-  padding: 1.1rem 3rem;
-  font-size: 1rem;
+  /* padding: 1.1rem 1rem; */
   font-weight: 900;
 }
 .background-image {
@@ -215,14 +216,14 @@ section {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.6em;
   margin-bottom: 0.5em;
   text-transform: capitalize;
   color: #333;
@@ -235,7 +236,7 @@ p {
 .price {
   font-weight: 800;
   color: #333;
-  font-size: 1.5em;
+  font-size: 1.2em;
   /* margin-top: 0.5em; */
 }
 
@@ -324,7 +325,7 @@ p {
 
 #myBtn {
   all: unset;
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: none;
   position: fixed;
   bottom: 20px;
@@ -383,17 +384,17 @@ p {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.3em;
     margin-bottom: 0.5em;
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 0.5em;
   }
 
   .price {
-    font-size: 1.2em;
+    font-size: 0.9em;
   }
 
   #pizza {
@@ -441,8 +442,8 @@ p {
     width: 7rem;
   }
   .details a {
-    font-size: 3rem;
-    padding: 1rem;
+    font-size: 2.5rem;
+    padding: 0.7rem;
   }
   .details h3 {
     font-size: 1.7rem;
