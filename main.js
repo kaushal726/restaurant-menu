@@ -1,6 +1,7 @@
 let veg = document.querySelectorAll(".veg");
 let nonveg = document.querySelectorAll(".nonveg");
 let burger = document.getElementById("burger")
+let buttons = document.querySelectorAll(".btncat")
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
@@ -66,5 +67,15 @@ window.addEventListener('scroll', () => {
         } else {
             section.classList.remove('appear');
         }
+    });
+});
+
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        buttons.forEach(b => {
+            b.classList.remove('active');
+        });
+        button.classList.add('active');
     });
 });
