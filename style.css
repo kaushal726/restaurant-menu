@@ -34,9 +34,9 @@ body {
   background: linear-gradient(
     to bottom,
     #0dcef0 0%,
-    #29a5f8 50%,
-    #26c8fa 50%,
-    #077483 100%
+    #5ebefd 50%,
+    #42d0fc 50%,
+    #32e7ff 100%
   );
   transition: padding 0.5s;
 }
@@ -64,10 +64,10 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #05b40b 0%,
-    #029107 50%,
-    #04af15 50%,
-    #03b415 100%
+    #40f049 0%,
+    #3bc240 50%,
+    #38c446 50%,
+    #08fc21 100%
   );
   transition: padding 0.5s;
 }
@@ -96,10 +96,10 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #f32d2d 0%,
-    #ca0a0a 50%,
-    #fc0e0e 50%,
-    #ac0505 100%
+    #d43434 0%,
+    #dd3131 50%,
+    #db2727 50%,
+    #c75959 100%
   );
   transition: padding 0.5s;
 }
@@ -107,7 +107,7 @@ body {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
   background: linear-gradient(
     to bottom,
-    #d32222 0%,
+    #d13e3e 0%,
     #970a0a 50%,
     #da0d0d 50%,
     #e60909 100%
@@ -359,7 +359,7 @@ p {
 .details h3 {
   letter-spacing: normal;
   text-align: center;
-  font-family: "Handwriting", cursive;
+  /* font-family: "Handwriting", cursive; */
   color: rgb(55, 119, 119);
   font-size: 4.5rem;
   margin: 1rem 0;
